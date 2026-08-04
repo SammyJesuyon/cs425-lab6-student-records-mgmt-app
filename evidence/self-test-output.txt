@@ -1,0 +1,16 @@
+$ ./test.sh
+PASS - default constructor + studentId setter
+PASS - name accessor/mutator
+PASS - date accessor/mutator
+PASS - string-date constructor
+PASS - platinum alumni filter
+PASS - descending admission-date order
+PASS - oldest platinum alumnus follows
+PASS - Hello/World/HelloWorld output
+PASS - first assignment example
+PASS - second assignment example
+PASS - duplicate maximum values
+PASS - negative values
+PASS - input without two distinct values is rejected
+
+All 13 Lab 6 checks passed.

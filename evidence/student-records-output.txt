@@ -1,0 +1,15 @@
+$ ./run.sh students
+CS425 LAB 6 - STUDENT RECORDS
+
+Students ordered by name (ascending):
+Student{studentId=110002, name='Anna', dateOfAdmission=1990-12-07}
+Student{studentId=110005, name='Bob', dateOfAdmission=1990-03-05}
+Student{studentId=110004, name='Carlos', dateOfAdmission=2009-08-22}
+Student{studentId=110001, name='Dave', dateOfAdmission=1951-11-18}
+Student{studentId=110003, name='Erica', dateOfAdmission=1974-01-31}
+
+Platinum alumni ordered by admission date (descending):
+Student{studentId=110002, name='Anna', dateOfAdmission=1990-12-07}
+Student{studentId=110005, name='Bob', dateOfAdmission=1990-03-05}
+Student{studentId=110003, name='Erica', dateOfAdmission=1974-01-31}
+Student{studentId=110001, name='Dave', dateOfAdmission=1951-11-18}

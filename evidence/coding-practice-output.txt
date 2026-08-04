@@ -1,0 +1,12 @@
+$ ./run.sh practice
+CS425 LAB 6 - CODING PRACTICE
+
+printHelloWorld input: [1, 5, 7, 10, 14, 35]
+Hello
+World
+Hello
+World
+HelloWorld
+
+findSecondBiggest([1, 2, 3, 4, 5]) = 4
+findSecondBiggest([19, 9, 11, 0, 12]) = 12
