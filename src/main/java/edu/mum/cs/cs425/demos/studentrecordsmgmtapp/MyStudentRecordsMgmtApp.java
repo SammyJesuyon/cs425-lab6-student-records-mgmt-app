@@ -8,9 +8,6 @@ import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 
-/**
- * CS425 Lab 6 command-line application.
- */
 public final class MyStudentRecordsMgmtApp {
     private MyStudentRecordsMgmtApp() {
     }
@@ -77,9 +74,7 @@ public final class MyStudentRecordsMgmtApp {
                 findSecondBiggest(secondInput));
     }
 
-    /**
-     * Prints all students in ascending order of name without mutating the input array.
-     */
+    // Prints all students in ascending order of name without mutating the input array.
     public static void printListOfStudents(Student[] students) {
         Student[] ordered = Arrays.copyOf(students, students.length);
         Arrays.sort(ordered, Comparator.comparing(Student::getName, String.CASE_INSENSITIVE_ORDER));
@@ -88,9 +83,7 @@ public final class MyStudentRecordsMgmtApp {
         }
     }
 
-    /**
-     * Returns students admitted at least 30 years ago, newest admission first.
-     */
+    // Returns students admitted at least 30 years ago, newest admission first.
     public static List<Student> getListOfPlatinumAlumniStudents(Student[] students) {
         LocalDate cutoff = LocalDate.now().minusYears(30);
         List<Student> platinumAlumni = new ArrayList<Student>();
@@ -107,10 +100,8 @@ public final class MyStudentRecordsMgmtApp {
         return platinumAlumni;
     }
 
-    /**
-     * Prints Hello for multiples of 5, World for multiples of 7, and HelloWorld
-     * for multiples of both 5 and 7. Other integers produce no output.
-     */
+    // Prints Hello for multiples of 5, World for multiples of 7, and HelloWorld
+    // for multiples of both 5 and 7. Other integers produce no output.
     public static void printHelloWorld(int[] numbers) {
         for (int number : numbers) {
             if (number % 5 == 0 && number % 7 == 0) {
@@ -123,9 +114,7 @@ public final class MyStudentRecordsMgmtApp {
         }
     }
 
-    /**
-     * Returns the second-largest distinct value in one pass without sorting.
-     */
+    // Returns the second-largest distinct value in one pass without sorting.
     public static int findSecondBiggest(int[] numbers) {
         if (numbers == null || numbers.length < 2) {
             throw new IllegalArgumentException("At least two integers are required.");
